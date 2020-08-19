@@ -1,0 +1,110 @@
+.app__item{
+    width: 320px;
+    height: 480px;
+}
+.app__head{
+    display: flex;
+    margin-top: -438px;
+    font-family: TrebuchetMS;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #666666;
+    margin-left: 45px;
+}
+.app__title{
+    font-family: TrebuchetMS;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 45px;
+}
+.app__subtitle{
+    font-family: TrebuchetMS;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 45px;
+}
+.app__inner{
+    margin-left: 45px;
+}
+.app__text{
+    font-family: TrebuchetMS;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #666666;
+    margin: 0;
+}
+.app__wrapper{
+    margin-left: 217px;
+    margin-top: 163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    position: relative;
+    width: 81px;
+    height: 81px;
+    border-radius: 80px
+}
+.app__wrapper p {
+    font-family: TrebuchetMS;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 5px;
+}
+.app__wrapper span {
+    font-family: TrebuchetMS;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 21px;
+}
+.app__count{
+    color: #fff;
+    font-size: 20px;
+    font-family: TrebuchetMS;
+}
+.app__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+}
+.app__buy{
+    background-color: #fff;
+    width: 134px;
+    height: 40px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2000;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.app__return{
+    position: relative;
+    z-index: 2000;
+    background-color: #fff;
+    width: 134px;
+    height: 40px;
+    border-radius: 30px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

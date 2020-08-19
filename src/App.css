@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Exo2-Thin; /* Имя шрифта */
+    src: url("/fonts/Exo2.0-Thin.otf"); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: TrebuchetMS; /* Имя шрифта */
+    src: url("/fonts/9412.ttf"); /* Путь к файлу со шрифтом */
+}
+body{
+    background: url("/Pattern.jpg")
+}
+#root{
+    background: url("/Shadow.png")
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.app__header{
+    box-shadow: 0px 1px 0px 1px #000000;
+    font-family: Exo2-Thin;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.app__info{
+    display: flex;
+    margin-top: 45px;
+    font-family: TrebuchetMS;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+}
+.app__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (max-width: 991px) {
+    .app{
+        height: 300vh;
+    }
+    .app__box {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
